@@ -18,10 +18,12 @@ This is a tool to test a script intended for the Tray.io Script/Python Script co
 ### Steps To Run the Script:
 1. Go to your terminal.
 2. Make sure to run `npm install` on the repo to install dependencies.
+
     ```markdown
     npm install
     ```
 3. Finally, run the below script to test your `script.js` with the `input.json`.
+
     ```markdown
     node run.js
     ```
@@ -35,6 +37,7 @@ This is a tool to test a script intended for the Tray.io Script/Python Script co
 ### Steps To Run the Script:
 1. Go to your terminal.
 2. Run the below script to test your `script.py` with the `input.json`.
+
     ```markdown
     python3 run.py
     ```
