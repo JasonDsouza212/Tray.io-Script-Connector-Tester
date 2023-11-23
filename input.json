@@ -1,0 +1,13 @@
+{
+	"variables": [
+		{
+			"name": "body",
+			"value": {
+				"record_id": "0012w00001OIZViAAP",
+				"record_type": "Account",
+				"trigger_type": "filter_templates"
+			}
+		}
+	],
+	"script": "'''\nYou can reference the input variables using input[\"NAME\"]\n'''\ndef executeScript(input):\n\treturn input[\"body\"]\n"
+}
